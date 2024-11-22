@@ -1,0 +1,1262 @@
+:root {
+    --bg_light_grey: #F1F1F1;
+    --bg_white: #FFF;
+    --bg_dark_blue: #146693;
+    --bg_dark_grey: #E9E9EB;
+    --bg_black: #000;
+    --bg_seagreen: #53d397;
+    --bg_yellow: #FFC107;
+    --bg_green: #8BC34A;
+    --bg_dark_green: #19956C;
+    --bg_light_green: #B0D685;
+    --bg_light_blue: #17A2B8;
+    --bg_dark_maroon: #DC143C;
+    --bg_light_maroon: #D75B67;
+    --bg_red: #E92B2B;
+    --bg_gradiant_blue: #3CAFC8;
+    --bg_grey: #626262;
+    --bg-light-gray: #bbbbbb;
+    --text_black: #000;
+    --text_dark_grey: #747479;
+    --text_light_grey: #F1F1F1;
+    --text_dark_blue: #146693;
+    --text_white: #FFF;
+    --text_seagreen: #53d397;
+    --text_yellow: #FFC107;
+    --text_green: #8BC34A;
+    --text_dark_green: #19956C;
+    --text_light_green: #B0D685;
+    --text_light_blue: #17A2B8;
+    --text_dark_maroon: #DC143C;
+    --text_light_maroon: #D75B67;
+    --text_red: #E92B2B;
+    --text_gradiant_blue: #3CAFC8;
+    --text_grey: #626262;
+    --border_white: #FFF;
+    --border_black: #000;
+    --border_light_grey: #F1F1F1;
+    --border_dark_grey: #747479;
+    --border_grey: #E9E9EB;
+    --border_dark_blue: #146693;
+    --border_seagreen: #53d397;
+    --border_yellow: #FFC107;
+    --border_orange: #ffa807;
+    --border_green: #8BC34A;
+    --border_dark_green: #19956C;
+    --border_light_green: #B0D685;
+    --border_light_blue: #17A2B8;
+    --border_dark_maroon: #DC143C;
+    --border_light_maroon: #D75B67;
+    --border_red: #E92B2B;
+    --border_gradiant_blue: #3CAFC8;
+    --border_grey: #626262;
+}
+
+
+
+
+body{
+    font-family: 'Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ==================================
+------Login Page Style Code Start----
+=====================================*/
+
+.login-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_box{
+    position: relative;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.login-img {
+    background-image: url('/admin_theme/marketplace/images/register4.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register-img{
+    background-image: url('/admin_theme/marketplace/images/register.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Forgot-img{
+    background-image: url('/admin_theme/marketplace/images/register.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.varify-img{
+    background-image: url('/admin_theme/marketplace/images/register2.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.client-img{
+    /* background-image: url('/admin_theme/marketplace/images/register2.jpg'); */
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.user-img{
+    background-image: url('/admin_theme/marketplace/images/register3.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bloomlogo{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form_label{
+   font-weight: 600;
+}
+
+.githubbutton{
+    background-color: #23282c !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: start!important;
+    align-items: center;
+}
+.googlebutton{
+    background-color: #347fe7 !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: start!important;
+    align-items: center;
+}
+.googlelogo{
+    height: 30px;
+    border-radius: 50%;
+}
+.githubicon{
+font-size: 30px;
+}
+
+.githubicontext{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+@media (max-width: 768px) {
+    .login-img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .client_slider_box {
+        display: none;
+    }
+}
+
+/* ==================================
+------Login Page Style Code End----
+=====================================*/
+
+
+/* ==================================
+-----------User/Client---------------
+===================================== */
+
+.user_client_body 
+{
+    background-color: #e8f0fe;
+}
+
+.user_client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 773px;
+}
+
+.user_client a{
+    text-decoration: none !important;
+    color: black;
+}
+.userbutton{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 6px gray;
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: moveShadow 2s infinite;
+    
+}
+
+.userbutton:hover{
+    scale: 1.05;
+    background-color: rgb(178, 178, 187);
+    color: white;
+    box-shadow: 2px 4px 8px gray;
+}
+
+.clientbutton{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 6px gray;
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: moveShadow 2s infinite;
+}
+
+.clientbutton:hover{
+    scale: 1.05;
+    background-color: rgb(178, 178, 187);
+    color: white;
+    box-shadow: 2px 4px 8px gray;
+}
+
+#preview-image{
+    height: 80px;
+    width:80px; 
+    border-radius: 50% !important;
+    display:none;
+}
+
+#preview-image2{
+    height: 75px;
+    width: 75px; 
+    border-radius: 50% !important;
+    display:none;
+}
+
+#preview-image3{
+    height: 100px;
+    width:100px; 
+    border-radius: 50% !important;
+    display:none;
+    margin-bottom: 16px;
+    margin-left: 50px;
+}
+
+#preview-image4{
+    height: 150px;
+    width:150px; 
+    border-radius: 50% !important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#preview-image4:hover{
+    scale: 1.1;
+}
+.form-group-lable{
+    font-weight: 700;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client_user_details {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile_image_background{
+    background-color: rgba(000,000,000,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.form_input_shadow{
+    box-shadow: 0px 1px 2px gray;
+}
+.company_logo{
+    max-width: 100px;
+}
+
+/* sidebar */
+
+/* Initial styles for the li element */
+.menu_item_color {
+    background-color: transparent;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* On hover, change text color to black and background color to white */
+/* .menu_item_color:hover {
+    background-color: white;
+    color: #000;
+} */
+
+.menu_item_color span {
+    color: inherit; /* Ensure the anchor tag inherits the text color */
+    text-decoration: none;
+    transition: color 0.3s;
+    transition-duration: 0.5s;
+}
+
+/* .menu_item_color:hover span {
+    color: black; 
+} */
+
+/* ============================== project ====================== */
+
+.project_main_box{
+    height: 300px;
+    width: 100%;
+    background-color: var(--bg_white);
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 6px gray;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.project_main_box::-webkit-scrollbar{
+    display: none;
+}
+
+.project_heading_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_rating_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pointer_switch{
+    cursor: pointer;
+}
+
+
+/*---------- Project Side Filter -----*/
+
+
+.filter_main_box{
+    box-shadow: 0px 1px 2px rgb(207, 206, 206);
+    padding: 10px;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+.filter_main_box:hover{
+    box-shadow: 0px 1px 5px rgb(172, 171, 171);
+    border-radius: 10px;
+}
+
+
+.project_type_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.clear_button{
+    color: var(--border_light_blue);
+    cursor: pointer;
+    font-size: 30px;
+}
+.viewmore_button{
+    color: var(--border_light_blue);
+    cursor: pointer;
+}
+
+.search_input_box{
+    border-radius: 30px;
+    border: 1px solid var(--bg_grey);
+}
+
+.project_details_main_box{
+    box-shadow: 0px 2px 2px var(--bg-light-gray);
+    padding: 10px;
+    border-radius: 5px;
+}
+.project_details_heading_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_details_hr {
+    margin: 1rem 0;
+    color: var(--border_dark_grey) !important;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .5
+}
+.project_details_bidding{
+    text-transform: uppercase;
+}
+
+.project_details_skills_item{
+    border: 1px solid var(--bg-light-gray);
+    border-radius: 20px;
+    padding: 2px 10px;
+
+}
+
+.project_details_id_report{
+    font-size: 12px;
+}
+
+.project_details_warning_box{
+    display: flex;
+    border: 2px solid var(--border_orange);
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+.warning_icon{
+    color: var(--border_yellow);
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.form-control::placeholder{
+    color: var(--bg-light-gray);
+}
+
+.textarea_bid_back{
+    background-color: var(--border_light_maroon);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--text_white);
+}
+
+.proposal_lable{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.project_details_sort_box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.client_green_icon{
+    color: var(--bg_dark_green);
+}
+
+.bookmark_item_box{
+    max-width: 700px;
+}
+
+.bookmark_main_item_box a{
+    color: var(--bg_black) !important;
+}
+
+.bookmark_tbody_box{
+    box-shadow: 0px 2px 4px gray !important;
+    border-radius: 3px !important;
+}
+
+.bookmark_tr_box{
+    box-shadow: 0px 1px 1px gray !important;
+}
+
+/* Profile */
+
+.profile_coverimage_box{
+    height: 380px;
+    width: 100%;
+    background-image: url('/images/profile_back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+.profile_main_image{
+    height: 250px;
+    width: 250px;
+    background-image: url('/admin_theme/marketplace/images/profile3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    object-fit: fill;
+    overflow: hidden;
+    left: 50px;
+    top: 250px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+
+.client_name_box{
+    margin-top: 150px;
+    padding: 0px 50px;
+}
+
+.client_name_profile{
+    color: var(--text_black);
+}
+
+
+.profile_verified_main_box {
+    width: 80%;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 2px 4px var(--bg-light-gray);
+}
+
+.profile_verified_icons_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_verified_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.protfolio_image{
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+.review_image{
+    height: 90px;
+    width: 90px;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.experience_image{
+    height: 120px;
+    width: 120px;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.experience_main_box{
+   
+    border-radius: 5px;
+    padding: 30px 0px;
+    box-shadow: 0px 2px 0px var(--bg-light-gray);
+}
+
+.portfolio_page_item{
+    border: 1px solid var(--bg-light-gray);
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: var(--bg_white);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.portfolio_active{
+    background-color: var(--bg-light-gray);
+}
+
+.portfolio_page_item:hover{
+    background-color: var(--bg-light-gray);
+}
+
+.protfolio_details_image{
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.protfolio_details_big_box{
+    max-height: 580px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 1px 0px 0px var(--bg-light-gray);
+}
+
+.protfolio_details_big_box::-webkit-scrollbar{
+    display: none;
+}
+
+.protfolio_details_profile_image{
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.protfolio_details_country_image{
+    width: 20px;
+    object-fit: fill;
+    overflow: hidden;
+    margin-right:  10px;
+}
+
+.protfolio_details_skills_item{
+    border: 2px solid var(--bg-light-gray);
+    border-radius: 2px;
+    padding: 2px 10px;
+}
+
+.rating_star_color{
+    color: var(--border_orange);
+}
+
+.add_skill_button{
+    border: 1px solid var(--bg-light-gray);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+
+.skill-search .form-control {
+    border: none;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: var(--bg_white);
+    box-shadow: none;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+/* .select_skills_box{
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.selected_skills_item{
+    border: 2px solid var(--bg-light-gray);
+    border-radius: 30px;
+    padding: 2px 10px;
+    margin: 5px 10px;
+}
+
+.select_skills_items{
+    border-radius: 30px;
+    padding: 2px 10px;
+    margin: 5px 10px;
+} */
+
+.selected-skills {
+    display: flex; /* Inline layout with flex */
+    flex-wrap: wrap; /* Allows the skills to wrap to the next line if there's not enough space */
+    margin-top: 10px;
+    max-height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.selected-skills span {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: grey;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: inline-block;
+    color: white;
+    display: flex;
+}
+
+.selected-skills span button {
+    margin-left: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.sub_industry_box{
+    height: 250px !important;
+}
+
+.searchResultsBox{
+    max-height: 240px !important;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.cross_button{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255); /* Change the text color if you want to make it black */
+    font-size: 12px;
+    cursor: pointer;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    font-size: 25px;
+}
+
+.profile_edit_box{
+  background-color: #b6b6b8;
+}
+.profile_edit_box:hover{
+  background-color: #a4a4a5 !important;
+}
+
+
+/* Home Filter Industry Header  */
+
+.all_industry_filter_head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #17A2B8;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    /* padding-top: 20px; */
+}
+.all_industry_name{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.all_industry_name:hover{
+    font-weight: bolder;
+}
+
+.all_industry_filter_active{
+border-bottom: 2px solid white;
+font-weight: bolder;
+}
+
+.client_project_img {
+    background-image: url('/admin_theme/marketplace/images/login1.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.client_project_main_box{
+   overflow: hidden;
+}
+
+.project_name_main_box{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.currency_min_max{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-results{
+    max-height:200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+
+.selected-skill{
+
+}
+.remove-skill{
+    border: none;
+}
+
+.selected_skills_box {
+    display: flex; /* Inline layout with flex */
+    flex-wrap: wrap; /* Allows the skills to wrap to the next line if there's not enough space */
+    margin-top: 10px;
+    max-height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 500px;
+}
+
+.selected-project-skill{
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: grey;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: inline-block;
+    color: white;
+    display: flex;
+}
+
+.remove-skill {
+    margin-left: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.home_button{
+    background-color: transparent !important;
+    color: var(--bg_black) !important;
+}
+
+/* User Profile CSS */
+
+.user_profile_main_box{
+box-shadow: 0px 0px 2px var(--bg-light-gray);
+background-color: var(--border_white);
+border-radius: 5px;
+height: 275px;
+overflow: hidden;
+}
+
+.user_img_profile_box{
+height: 130px;
+width: 130px;
+overflow: hidden;
+object-fit: fill;
+position: relative;
+border-radius: 5px;
+box-shadow: 0px 0px 10px 2px var(--bg-light-gray);
+}
+
+.user_img_profile_box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.user_live_button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--bg_green);
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    left: 20px;
+}
+
+.user_ofline_button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--text_dark_grey);
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    left: 20px;
+}
+
+
+.port-image-preview {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+.remove-port-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cover-image-preview {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+.cover-image-preview img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.remove-cover-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile-image-preview {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+.profile-image-preview img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.remove-profile-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ------------------------------------- Invoice ----------------------------------- */
+.invoice_logo{
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.invoice_logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.invoice_img_box{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.invoice_table_dark{
+    background-color: #000 !important;
+    color: white !important;
+}
+
+.invoice_total_balance{
+    background-color: #e4e4e4;
+}
+
+.invoice_TAX{
+    font-size: 50px;
+}
+
+/* --------------- Wallet ---------------------------------*/
+
+.wallet_top_button_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--bg_black);
+    color: var(--bg_white);  
+}
+
+.wallet_top_button_box span{
+    border-bottom: 2px solid var(--bg_black);
+}
+
+.wallet_top_button_box span:hover{
+    cursor: pointer;
+}
+
+.wallet_button_border{
+    border-bottom: 2px solid var(--bg_white) !important;
+}
+
+.transaction_history_top_button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.transaction_outer_box{
+padding: 10px 100px;
+}
+
+.lightWalletButton{
+background-color: var(--bg-light-gray);
+}
+.lightWalletButton:hover{
+background-color: var(--bg-light-gray);
+}
+
+.transaction_inner_box{
+    background-color: var(--bg_white);
+    box-shadow: 0px 0px 5px gray;
+}
+
+/* alert  */
+
+.alert {
+    position: absolute !important;
+    top: 11%;
+    right: 0;
+    z-index: 9999;
+    width: 450px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid var(--border_grey);
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+
+.bid_project_box{
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.bid_user_profile{
+    display: flex;
+    justify-content:center;
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.bid_user_profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.bid_user_name_chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.view_all_bid_button{
+    cursor: pointer;
+}
+.view_all_bid_button:hover{
+    background-color: gray;
+    color: var(--bg_white);
+}
+/* chat */
+
+.chat-container {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.chat-window {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.my-message {
+    justify-content: flex-end;
+}
+
+.their-message {
+    justify-content: flex-start;
+}
+
+.message-content {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.my-message .message-content {
+    background-color: #007bff;
+    color: white;
+    border-top-right-radius: 0;
+}
+
+.their-message .message-content {
+    background-color: #e5e5e5;
+    color: black;
+    border-top-left-radius: 0;
+}
+
+.chat-form textarea {
+    resize: none;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.chat-form button {
+    border-radius: 8px;
+}
+
+.chat_user_list_box{
+    box-shadow: 1px 0px 0px gray;
+    height: 600px;
+    overflow-y: auto;
+}
+
+#chat_send_button i{
+ color:var(--bg_dark_blue);
+}
+
+.hr-color{
+    color: var(--bg_grey) !important;
+}
+
+.assign_image{
+    height: 80px;
+    width: 80px;
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.assign_main_outer_box{
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+.assign_payment_box{
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* rating star css Start */
+
+.rating {
+    direction: rtl; 
+    display: inline-flex;
+}
+
+.rating input {
+    display: none; 
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating input:checked ~ label {
+    color: #f5c518; 
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #ffc107; 
+}
+
+/* rating star css end */
+
+/* =========================
+Proposal Accept css start  
+===========================*/
+
+.accept_top_outer_box{
+box-shadow: 0px 0px 5px gray;
+border-top: 4px solid var(--bg_light_blue);
+padding: 20px;
+}
+
+.accept_client_outer_box{
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+}

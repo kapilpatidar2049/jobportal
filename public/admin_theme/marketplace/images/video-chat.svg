@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24" id="google-hangouts-meet">
+  <rect width="24" height="24" x=".463" fill="url(#paint0_linear_302_4739)" rx="8"></rect>
+  <path fill="#fff" fill-rule="evenodd" d="M12.8572 17.7143C9.07005 17.7143 6 14.6442 6 10.8572C6 7.07005 9.07005 4 12.8572 4C16.6442 4 19.7143 7.07005 19.7143 10.8572C19.7143 15.7333 15.1428 18.9841 12.8572 20V17.7143ZM9.22079 9.09091V12.7273C9.22079 13.1289 9.54641 13.4545 9.94807 13.4545H14.3117C14.7134 13.4545 15.039 13.1289 15.039 12.7273V11.6364L16.8572 13.0909V8.72727L15.039 10.1818V9.09091C15.039 8.68925 14.7134 8.36364 14.3117 8.36364H9.94807C9.54641 8.36364 9.22079 8.68925 9.22079 9.09091Z" clip-rule="evenodd"></path>
+  <defs>
+    <linearGradient id="paint0_linear_302_4739" x1=".463" x2="24.463" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ED6D6B"></stop>
+      <stop offset="1" stop-color="#F0B076"></stop>
+    </linearGradient>
+  </defs>
+</svg>

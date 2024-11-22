@@ -1,0 +1,112 @@
+/* ---------------terms and condition page------------------ */
+.tnc_section {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.tnc_container {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 30px 40px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tnc_container h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.tnc_container h2 {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.tnc_container ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.tnc_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #0073e6; */
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.tnc_btn:hover {
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+}
+/* ---------------terms and condition page------------------ */
+
+/* -------------------privacy policy page-------------------- */
+.privacypolicy {
+    line-height: 1.6;
+    color: #000000;
+    /* background-color: #f9f9f9; */
+    box-sizing: border-box;
+}
+
+.pp_container {
+    max-width: 900px;
+    /* margin: 50px auto; */
+    margin: 100px auto;
+    padding: 30px 40px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pp_container h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pp_container h2 {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pp_container p, .pp_container ul {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.pp_container ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.pp_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #0073e6; */
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.pp_btn:hover {
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+}
+/* -------------------privacy policy page-------------------- */

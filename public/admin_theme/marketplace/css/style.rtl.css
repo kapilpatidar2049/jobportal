@@ -1,0 +1,346 @@
+body {
+    font-family: 'Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    direction: rtl; /* Set the text direction to right-to-left */
+}
+
+/* ==================================
+------Login Page Style Code Start----
+=====================================*/
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_box {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.login-img {
+    background-image: url('/admin_theme/marketplace/images/register4.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register-img {
+    background-image: url('/admin_theme/marketplace/images/register.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Forgot-img {
+    background-image: url('/admin_theme/marketplace/images/register.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.varify-img {
+    background-image: url('/admin_theme/marketplace/images/register2.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.client-img {
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.user-img {
+    background-image: url('/admin_theme/marketplace/images/register3.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bloomlogo {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form_label {
+    font-weight: 600;
+}
+
+.githubbutton {
+    background-color: #23282c !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center;
+}
+
+.googlebutton {
+    background-color: #347fe7 !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center;
+}
+
+.googlelogo {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.githubicon {
+    font-size: 30px;
+}
+
+.githubicontext {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+@media (max-width: 768px) {
+    .login-img {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .client_slider_box {
+        display: none;
+    }
+}
+/* ==================================
+------Login Page Style Code End----
+=====================================*/
+
+
+/* ==================================
+-----------User/Client---------------
+===================================== */
+
+.user_client_body {
+    background-color: #e8f0fe;
+}
+
+.user_client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 773px;
+}
+
+.user_client a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.userbutton {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 6px gray;
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px; /* Changed from margin-right to margin-left */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: moveShadow 2s infinite;
+}
+
+.userbutton:hover {
+    scale: 1.05;
+    background-color: rgb(178, 178, 187);
+    color: white;
+    box-shadow: 2px 4px 8px gray;
+}
+
+.clientbutton {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 6px gray;
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: moveShadow 2s infinite;
+}
+
+.clientbutton:hover {
+    scale: 1.05;
+    background-color: rgb(178, 178, 187);
+    color: white;
+    box-shadow: 2px 4px 8px gray;
+}
+
+#preview-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50% !important;
+    display: none;
+}
+
+#preview-image2 {
+    height: 75px;
+    width: 75px;
+    border-radius: 50% !important;
+    display: none;
+}
+
+#preview-image3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50% !important;
+    display: none;
+    margin-bottom: 16px;
+    margin-right: 50px; /* Changed from margin-left to margin-right */
+}
+
+#preview-image4 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50% !important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#preview-image4:hover {
+    scale: 1.1;
+}
+
+.form-group-lable {
+    font-weight: 700;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client_user_details {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile_image_background {
+    background-color: rgba(000,000,000,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.form_input_shadow {
+    box-shadow: 0px 1px 2px gray;
+}
+
+.company_logo {
+    max-width: 100px;
+}
+
+/* sidebar */
+
+/* Initial styles for the li element */
+.menu_item_color {
+    background-color: transparent;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.menu_item_color span {
+    color: inherit; /* Ensure the anchor tag inherits the text color */
+    text-decoration: none;
+    transition: color 0.3s;
+    transition-duration: 0.5s;
+}
+
+/* ============================== project ====================== */
+
+.project_main_box {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(219, 217, 230);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.project_main_box::-webkit-scrollbar {
+    display: none;
+}
+
+.project_heading_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_rating_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pointer_switch {
+    cursor: pointer;
+}
+
+#preview-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50% !important;
+    display: none;
+    margin-bottom: 25px;
+}
